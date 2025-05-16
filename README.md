@@ -41,6 +41,29 @@ Tested with:
 - ⏳ Avg Result Time: 258.4s
 - 🎲 Difficulty: 100001
 
+⚡ **Pool used:** [unMineable](https://unmineable.com/)  
+
+## 🔧 Pool Configuration
+
+Use the following pool and user address format in your server config:
+
+```
+Pool: rx.unmineable.com:3333
+User: COIN:YourWalletAddress.YourWorkerName#referral-code
+```
+
+Example:
+
+```
+Pool: rx.unmineable.com:3333
+User: ETH:0xYourEthereumWallet.MyRig1#xpwl-0jpf
+```
+
+Replace `COIN` with your desired coin symbol (e.g., `ETH`, `BTC`, `XMR`) and update the wallet and worker names accordingly.
+
+Make sure to include my referral code `xpwl-0jpf` or `iu08-jyje` at the end after the `#` to support the project <3.
+
+
 ## 🚀 Installation
 
 1. 🔐 Go to your Pterodactyl panel admin dashboard.
