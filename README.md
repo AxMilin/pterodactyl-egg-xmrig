@@ -54,6 +54,12 @@ Tested with:
 - 🐉 Pterodactyl GitHub: [https://github.com/pterodactyl/panel](https://github.com/pterodactyl/panel)
 - ⛏️ XMRig GitHub: [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
 
+## 💰 Donate Wallets
+
+- 🟣 Solana: `Dm1Di7eec24Yug4UYUpz3BBY84be3V8hERJfWA3QkFoo`
+- ₿ Bitcoin: `bc1qvfa423wxkqm7mw7m8mg2rpqqa7plx8rflwy8nd`
+- 🔷 Sui: `0x47f39de09455952effefed73be231ca10ba9a8aa5dccfc376c291573c11d2c6a`
+
 ## 📎 Notes
 
 - ⚠️ Make sure the host node has proper CPU resources.
