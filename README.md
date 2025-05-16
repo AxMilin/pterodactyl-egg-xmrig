@@ -72,3 +72,9 @@ This project is licensed under the MIT License.
 ---
 
 Made with 💻 by [AxMilin](https://axmilin.in.th/) ✌️
+
+---
+
+## 🏷️ Tags
+
+`pterodactyl` `egg` `xmrig` `mining` `cryptocurrency` `cpu-mining` `docker` `automation` `opensource` `monero` `crypto` `miner` `server` `linux` `devops` `blockchain` `pool` `hashrate` `performance`
