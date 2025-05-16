@@ -1,0 +1,52 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2025-05-16T09:11:39+00:00",
+    "name": "XmRig",
+    "author": "euchai2017@gmail.com",
+    "description": "A mining service for XMRig to mine Monero using the specified mining pool and wallet address.",
+    "features": null,
+    "docker_images": {
+        "ghcr.io\/parkervcp\/yolks:debian": "ghcr.io\/parkervcp\/yolks:debian"
+    },
+    "file_denylist": [],
+    "startup": ".\/xmrig --url $POOL --user $WALLET --pass x --donate-level 0",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"ready\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{}",
+        "stop": "killall xmrig"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!\/bin\/bash\r\napt update -y && apt install -y wget tar\r\n\r\ncd \/mnt\/server\r\nwget https:\/\/github.com\/xmrig\/xmrig\/releases\/download\/v6.22.2\/xmrig-6.22.2-focal-x64.tar.gz\r\ntar -xzf xmrig-6.22.2-focal-x64.tar.gz\r\n\r\n# Move only the binary to \/mnt\/server\r\ncp xmrig-6.22.2\/xmrig .\/xmrig\r\n\r\n# Clean up (optional)\r\nrm -rf xmrig-6.22.2 xmrig-6.22.2-focal-x64.tar.gz",
+            "container": "debian",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Mining Pool",
+            "description": "Enter your mining pool URL (e.g., stratum+tcp:\/\/pool.example.com:3333).",
+            "env_variable": "POOL",
+            "default_value": "stratum+tcp:\/\/yourpool.com:3333",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string",
+            "field_type": "text"
+        },
+        {
+            "name": "Wallet Address",
+            "description": "Enter your Bitcoin wallet address.",
+            "env_variable": "WALLET",
+            "default_value": "YourBitcoinWalletAddress",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string",
+            "field_type": "text"
+        }
+    ]
+}
