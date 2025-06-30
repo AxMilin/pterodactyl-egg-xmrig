@@ -61,7 +61,7 @@ User: ETH:0xYourEthereumWallet.MyRig1#xpwl-0jpf
 
 Replace `COIN` with your desired coin symbol (e.g., `ETH`, `BTC`, `XMR`) and update the wallet and worker names accordingly.
 
-Make sure to include my referral code `xpwl-0jpf` or `iu08-jyje` at the end after the `#` to support the project <3.
+Make sure to include my referral code `xpwl-0jpf` at the end after the `#` to support the project <3.
 
 
 ## 🚀 Installation
