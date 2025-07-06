@@ -56,12 +56,12 @@ Example:
 
 ```
 Pool: rx.unmineable.com:3333
-User: ETH:0xYourEthereumWallet.MyRig1#xpwl-0jpf
+User: ETH:0xYourEthereumWallet.MyRig1#lxch-7el6
 ```
 
 Replace `COIN` with your desired coin symbol (e.g., `ETH`, `BTC`, `XMR`) and update the wallet and worker names accordingly.
 
-Make sure to include my referral code `xpwl-0jpf` at the end after the `#` to support the project <3.
+Make sure to include my referral code `lxch-7el6` at the end after the `#` to support the project <3.
 
 
 ## 🚀 Installation
@@ -82,6 +82,7 @@ Make sure to include my referral code `xpwl-0jpf` at the end after the `#` to su
 - 🟣 Solana: `Dm1Di7eec24Yug4UYUpz3BBY84be3V8hERJfWA3QkFoo`
 - ₿ Bitcoin: `bc1qvfa423wxkqm7mw7m8mg2rpqqa7plx8rflwy8nd`
 - 🔷 Sui: `0x47f39de09455952effefed73be231ca10ba9a8aa5dccfc376c291573c11d2c6a`
+- 🟪 MATIC/POL: `0x4eAd25C7083d09d58edBFf432BB079Dbe2f56969`
 
 ## 📎 Notes
 
