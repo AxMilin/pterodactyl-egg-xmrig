@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\napt update -y && apt install -y wget tar\r\n\r\ncd \/mnt\/server\r\nwget https:\/\/github.com\/xmrig\/xmrig\/releases\/download\/v6.24.0\/xmrig-6.24.0-focal-x64.tar.gz\r\ntar -xzf xmrig-6.22.2-focal-x64.tar.gz\r\n\r\n# Move only the binary to \/mnt\/server\r\ncp xmrig-6.22.2\/xmrig .\/xmrig\r\n\r\n# Clean up (optional)\r\nrm -rf xmrig-6.22.2 xmrig-6.22.2-focal-x64.tar.gz",
+            "script": "#!\/bin\/bash\r\napt update -y && apt install -y wget tar\r\n\r\ncd \/mnt\/server\r\nwget https:\/\/github.com\/xmrig\/xmrig\/releases\/download\/v6.24.0\/xmrig-6.24.0-focal-x64.tar.gz\r\ntar -xzf xmrig-6.24.0-focal-x64.tar.gz\r\n\r\n# Move only the binary to \/mnt\/server\r\ncp xmrig-6.24.0\/xmrig .\/xmrig\r\n\r\n# Clean up (optional)\r\nrm -rf xmrig-6.24.0 xmrig-6.24.0-focal-x64.tar.gz",
             "container": "debian",
             "entrypoint": "bash"
         }
